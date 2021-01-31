@@ -1,0 +1,34 @@
+Request Headers
+User-Agent: PostmanRuntime/7.26.10
+- identifies what application the request is coming from, in this case it is coming from Postman Version 7.26.10
+Accept: */*
+- indicates what media types, languages and character sets are on the client
+Cache-Control: no-cache
+- indicates instructions for caching for the request
+Postman-Token: 6ededfbc-a529-4e97-8404-95894c579a37
+Host: www.googleapis.com
+- indicates the server that the request is being sent
+Accept-Encoding: gzip, deflate, br
+- indicates what types of encoding that the client is able to understand
+Connection: keep-alive
+- indicates the network behavior after the transaction is complete
+
+Response Headers
+Content-Type: application/json; charset=UTF-8
+- indicates the media type of the response
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+- indicates the type of the encoding of the response
+Date: Sun, 31 Jan 2021 22:58:30 GMT
+- indicates the time of the response
+Server: ESF
+-indicates the server that handled the request
+Cache-Control: private
+- indicates instructions for caching for the response
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
